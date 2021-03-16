@@ -5,3 +5,5 @@ mounting file share :
 sudo mkdir /mnt/myFolder
 
 sudo mount -t cifs -o username=serverUserName //myServerIpAdress/sharename /mnt/myFolder/
+
+sudo umount 
