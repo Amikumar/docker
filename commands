@@ -1,3 +1,7 @@
 sudo fuser -k 80/tcp ( Kill any process in ubuntu) 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04 
 
+mounting file share :
+sudo mkdir /mnt/myFolder
+
+sudo mount -t cifs -o username=serverUserName //myServerIpAdress/sharename /mnt/myFolder/
