@@ -7,3 +7,5 @@ sudo mkdir /mnt/myFolder
 sudo mount -t cifs -o username=serverUserName //myServerIpAdress/sharename /mnt/myFolder/
 
 sudo umount 
+
+https://phoenixnap.com/kb/docker-volumes#:~:text=The%20command%20instructs%20Docker%20to,data%20directory%20inside%20the%20container.&text=Find%20the%20Docker%20volume%20under,this%20example%2C%20it%20is%20data.
